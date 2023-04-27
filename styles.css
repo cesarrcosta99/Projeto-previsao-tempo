@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -14,18 +14,18 @@ body{
     background-image: url("https://images.unsplash.com/photo-1508108712903-49b7ef9b1df8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4MDIwMDI1MQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
 }
 
-.caixa-grande{
+.caixa-grande {
     background: black;
     opacity: 8;
     border-radius: 25px;
     padding: 20px;
     width: 95%;
-    max-width:450px;
+    max-width: 450px;
 }
 
 
 
-.input{
+.input {
     border: none;
     border-radius: 25px;
     padding: 10px;
@@ -36,7 +36,7 @@ body{
     width: calc(100% - 60px);
 }
 
- .botao{
+.botao {
     border: none;
     background-color: #7c7c7c2b;
     padding: 10px;
@@ -44,43 +44,44 @@ body{
     outline: none;
     float: right;
     cursor: pointer;
- }
+}
 
-.lupa{
+.lupa {
     width: 23px;
 
 }
 
- .caixa-media{
+.caixa-media {
     margin-top: 10px;
- }
-
-h2{
-  color: #ffffff;
-  font-size: 23px;
-  font-weight: 300;
 }
 
-.temp{
+h2 {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.temp {
     font-size: 20px;
     color: #ffffff;
     margin-top: 20px;
 }
 
-.caixa-menor{
+.caixa-menor {
     display: flex;
     align-items: center;
     gap: 5px;
     margin-top: 20px;
 }
 
-.texto-previsao{
+.texto-previsao {
     color: #ffffff;
     font-size: 20px;
     font-weight: 300;
+    text-transform: capitalize;
 }
 
-.umidade{
+.umidade {
     color: #ffffff;
     margin-top: 5px;
 }
